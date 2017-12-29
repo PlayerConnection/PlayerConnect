@@ -1,0 +1,55 @@
+<nav class="navbar is-primary">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="https://playerconnect.io">
+      <!-- <i class="fa fa-sync"></i>  -->
+      PlayerConnect
+    </a>
+    <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="https://bulma.io/">
+        Home
+      </a>
+      <!-- <a class="navbar-item" href="https://bulma.io/">
+        Search Tournments
+      </a> -->
+      <a class="navbar-item" routerLink="/TournementResults">Tournement Results</a>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="/documentation/overview/start/">
+          Docs
+        </a>
+        <div class="navbar-dropdown is-boxed">
+          <a class="navbar-item" href="/documentation/overview/start/">
+            Overview
+          </a>
+          <hr class="navbar-divider">
+          <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
+            Elements
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-end">
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          John Smith
+        </a>
+        <div class="navbar-dropdown is-boxed">
+          <a class="navbar-item" routerlink="/profile">
+            Profile
+          </a>
+          <a class="navbar-item" routerLink="/ChangePassword">Change Password</a>
+          <hr class="navbar-divider">
+          <a class="navbar-item" routerlink="/logout">
+            Logout
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
