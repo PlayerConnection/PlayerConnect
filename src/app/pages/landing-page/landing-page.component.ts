@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CAMPS, TOURNAMENTS, TEAMS, PLAYERS } from "../../shared/mock-data";
 
 @Component({
   selector: 'app-landing-page',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./landing-page.component.scss']
 })
 export class LandingPageComponent implements OnInit {
-
+  camps = CAMPS;
+  tournaments = TOURNAMENTS;
+  teams = TEAMS;
+  players = PLAYERS;
   constructor() { }
 
   ngOnInit() {
   }
-
 }
